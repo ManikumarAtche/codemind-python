@@ -1,3 +1,4 @@
-n=str(input())
-rev=n[::-1]
-print(rev)
+n=int(input())
+s=str(n)
+m=s[::-1]
+print(m,end='')
