@@ -1,11 +1,12 @@
 n=int(input())
-s=1
-r=0
-for i in str(n):
-    d=int(i)
-    s=s*d
-    r=r+d
-if s==r:
+m=str(n)
+c=0
+d=1
+for i in m:
+    r=int(i)
+    c+=r
+    d*=r
+if c==d:
     print("Spy Number")
 else:
     print("Not Spy Number")
