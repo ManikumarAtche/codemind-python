@@ -3,5 +3,5 @@ def fun(a,b):
         return abs(a)
     else:
         return fun(b,a%b)
-m,n=map(int,input().split())
-print(fun(m,n))
+a,b=map(int,input().split())
+print(fun(a,b))
